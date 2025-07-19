@@ -723,4 +723,4 @@
  :journal/page-title-format "yyyy/MM/dd"
  :editor/preferred-pasting-file? true
  :graph/settings {:journal? false}
- :publishing/all-pages-public? false}
+ :publishing/all-pages-public? true}
