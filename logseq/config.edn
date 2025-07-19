@@ -128,11 +128,11 @@
  ;; If `:sidebar` remains unset, the right sidebar will stay hidden.
  ;; Examples:
  ;; 1. Set "Changelog" as the home page and display "Contents" in the right sidebar:
- ;; :default-home {:page "Home", :sidebar "Area"}
+:default-home {:page "メインページ", :sidebar "Contents"}
  ;; 2. Set "Jun 3rd, 2021" as the home page without the right sidebar:
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Set "home" as the home page and display multiple pages in the right sidebar:
- :default-home {:page "メインページ", :sidebar ["Logs" "Resources"]}
+ ;; :default-home {:page "メインページ", :sidebar ["Logs" "Resources"]}
 
  ;; Set the default location for storing notes.
  ;; Default value: "pages"
