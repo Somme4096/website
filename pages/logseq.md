@@ -12,4 +12,3 @@ type:: [[Resources]]
    :inputs [:current-page]
   }
   #+END_QUERY
-- https://notes.andymatuschak.org/About_these_notes?stackedNotes=zCMhncA1iSE74MKKYQS5PBZ
