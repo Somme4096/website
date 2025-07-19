@@ -21,8 +21,8 @@ jobs:
         uses: logseq/publish-spa@v0.3.0
         with:
           graph-directory: .
-          theme-mode: light
-          accent-color: green
+          theme-mode: dark
+          accent-color: blue
           output-directory: build
 
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
