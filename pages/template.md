@@ -1,3 +1,4 @@
+publish:: false
 # Component type
 	- template:: ReferencedNote
 	  collapsed:: true
