@@ -27,7 +27,7 @@ jobs:
 
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         if: steps.build.outcome == 'success'
-        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+        run: touch $GITHUB_WORKSPACE/build/.nojekyll
 
       - name: Inject Logo
         if: steps.build.outcome == 'success'
