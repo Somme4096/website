@@ -1,1 +1,0 @@
-# 👏 Somme4096's Personal Website
