@@ -1,4 +1,4 @@
-type:: [[Resources]]
+type:: [[小説]]
 
 - #+BEGIN_QUERY
   {:query [:find (pull ?page [*])
