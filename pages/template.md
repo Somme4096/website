@@ -1,5 +1,6 @@
 publish:: false
-# Component type
+
+- # Component type
 	- template:: ReferencedNote
 	  collapsed:: true
 	  #+BEGIN_QUERY
@@ -127,7 +128,6 @@ publish:: false
 		- type:: [[Logs]]
 		    status:: [[TODO]] 
 		    date:: <%today%>
-		    outcome::
 		    tags::
 	- ## ☘️ノートカード
 	  template:: notecard
