@@ -22,7 +22,7 @@ jobs:
         with:
           graph-directory: .
           theme-mode: dark
-          accent-color: blue
+          accent-color: pink
           output-directory: build
 
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
