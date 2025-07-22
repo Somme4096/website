@@ -1,5 +1,10 @@
-publish:: false
-
+- #+BEGIN_IMPORTANT
+  **注意**：このページは開発者専用のページです。もしあなたがサイトの閲覧者である場合、このページには有用な情報がありません。他のページを閲覧してください。
+  #+END_IMPORTANT
+- #+BEGIN_IMPORTANT
+  **WARNING**: This page is for developer only. Visitors are recommended to navigate to other pages."
+  #+END_IMPORTANT
+- publish:: false
 - # Component type
 	- template:: ReferencedNote
 	  collapsed:: true
