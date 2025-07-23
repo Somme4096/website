@@ -35,7 +35,7 @@ jobs:
 
       - name: Inject HTMLs
         if: steps.build.outcome == 'success'
-        run: chmod +x ./.github/scripts/inject_html.sh && ./.github/scripts/inject_html.sh
+        run: chmod +x ./.github/scripts/html.sh && ./.github/scripts/html.sh
 
       - name: Deploy 🚀
         if: steps.build.outcome == 'success'
