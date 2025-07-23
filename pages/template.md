@@ -4,7 +4,7 @@
 - #+BEGIN_IMPORTANT
   **WARNING**: This page is for developer only. Visitors are recommended to navigate to other pages."
   #+END_IMPORTANT
-- publish:: false
+- public:: false
 - # Component type
 	- template:: ReferencedNote
 	  collapsed:: true
