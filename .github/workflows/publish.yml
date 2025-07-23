@@ -33,6 +33,10 @@ jobs:
         if: steps.build.outcome == 'success'
         run: cp -f $GITHUB_WORKSPACE/assets/logo.png $GITHUB_WORKSPACE/build/static/img/logo.png
 
+      - name: Inject HTMLs
+        if: steps.build.outcome == 'success'
+        run: chmod +x ./.github/scripts/inject_html.sh && ./.github/scripts/inject_html.sh
+
       - name: Deploy 🚀
         if: steps.build.outcome == 'success'
         uses: JamesIves/github-pages-deploy-action@v4
