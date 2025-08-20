@@ -3,7 +3,7 @@
 
 file="build/index.html"
 
-title="Somme4096の実験的なウェブサイト"
+title="Somme4096の文章置き場"
 description="(Experimental) personal website of Somme4096."
 
 # Escape HTML characters
