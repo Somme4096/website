@@ -16,7 +16,7 @@ sed -i "s/<meta name=\"description\"[^>]*>/<meta name=\"description\" content=\"
 echo "Inject HTML: Replaced meta information"
 
 script='<script>
-  document.title = document.title + " | Somme4096の実験的なウェブサイト";
+  document.title = document.title + " | Somme4096の文章置き場";
 </script>'
 
 # Escape for sed insertion
