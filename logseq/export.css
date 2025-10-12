@@ -1,3 +1,19 @@
 :root {
   --ct-line-height: 2;
 }
+
+.blocks-container {
+line-height: 1.8;
+}
+
+.ls-block[data-refs-self*=".no-bullet"] > div > div > a > .bullet-container {
+    opacity: 0;
+}
+
+.ls-block[data-refs-self*=".no-bullet"]:hover > div > div > a > .bullet-container {
+    opacity: 100;
+}
+
+a.tag[data-ref=".no-bullet"] {
+    visibility: collapse;
+}
